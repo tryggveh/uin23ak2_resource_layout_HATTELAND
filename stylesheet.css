@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap');
+
+:root {
+    --grey: #7b7b7b;
+    --aqua: #25dfe6;
+    --backgroundbutton: #f6f2f2;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+h1 {
+    text-align: left;
+    padding-left: 2rem;
+    color: var(--grey);
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: var(--grey);
+    padding-left: 2rem;
+}
+
+ul {
+    padding-left: 2rem;
+    list-style-position: inside;
+}
+
+a {
+    color: var(--aqua);
+    font-weight: bold;
+}
+
+header {
+    border: 1px solid var(--grey);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+article {
+    border: 1px solid var(--grey);
+    border-top: 5px solid var(--aqua);
+}
+
+button {
+	background-color: var(--backgroundbutton);
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+    border: .1px solid var(--grey);
+	font-size:20px;
+	padding:14px 23px;
+    border-bottom: none;
+    margin-right: .5rem;
+    text-transform: uppercase;
+}
+
+button:hover {
+	background-color: var(--backgroundbutton);
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+button:focus {
+    background-color: var(--aqua);
+    border-bottom: 1px solid var(--aqua);
+}
