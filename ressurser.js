@@ -199,7 +199,7 @@ for (let i = 0; i < textHTML.length; i++) {
 
 //CSS Artikkel
 //Rendrer tekst inn i artikkel
-const CSSArt = document.getElementById("articleCSS");
+const articleCSS= document.getElementById("articleCSS");
 
 //Lager en for loop som går igjennom textCSS arrayen
 for (let i = 0; i < textCSS.length; i++) {
@@ -232,7 +232,7 @@ for (let i = 0; i < textCSS.length; i++) {
 
 //JS Artikkel
 //Rendrer tekst inn i artikkel
-const JSArt = document.getElementById("articleJS");
+const articleJS = document.getElementById("articleJS");
 
 //Lager en for loop som går igjennom textJS arrayen
 for (let i = 0; i < textJS.length; i++) {
@@ -265,7 +265,7 @@ for (let i = 0; i < textJS.length; i++) {
 
 //React Artikkel
 //Rendrer tekst inn i artikkel
-const ReactArt = document.getElementById("articleReact");
+const articleReact = document.getElementById("articleReact");
 
 //Lager en for loop som går igjennom textReact arrayen
 for (let i = 0; i < textReact.length; i++) {
@@ -298,7 +298,7 @@ for (let i = 0; i < textReact.length; i++) {
 
 //CMS Artikkel
 //Rendrer tekst inn i artikkel
-const CMSArt = document.getElementById("articleSanity");
+const articleSanity = document.getElementById("articleSanity");
 
 //Lager en for loop som går igjennom textCMS arrayen
 for (let i = 0; i < textCMS.length; i++) {
